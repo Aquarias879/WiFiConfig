@@ -1,6 +1,5 @@
 #include <WiFiConfig.h>
 
-//define lib
 WiFiConfig config;
 
 void setup() {
@@ -13,11 +12,11 @@ void setup() {
     attempts++;
   }
   config.ConnectMode();
-  // put your setup code here, to run once:
+  
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+
 
 }
